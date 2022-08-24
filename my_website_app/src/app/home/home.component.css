@@ -1,0 +1,42 @@
+.container{
+    margin: 20px 0px 30px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-container, .resume-container{
+    text-align: center;
+    vertical-align:middle;
+    margin: 10px 30px 10px 30px;
+}
+.resume-container{
+    width: 500px;
+}
+
+.resume-container p{
+    text-align: justify;
+    font-size: 18px;
+    color: hsl(250, 8%, 40%);
+    font-weight: 500;
+    padding: 0;
+}
+.resume-container h1{
+    font-size: 38px;
+    color: hsl(255, 8%, 15%);
+}
+.resume-container h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(250, 8%, 45%)
+}
+.img-container img{
+    border-radius: 50%;
+    height: 300px;
+    vertical-align:middle;
+}

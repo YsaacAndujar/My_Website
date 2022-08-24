@@ -1,0 +1,28 @@
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+      <nav>
+         <div class="logo">
+            Ysaac Andujar
+         </div>
+         <input type="checkbox" id="click" [(ngModel)]="isChecked">
+         <label for="click" class="menu-btn" >
+            <i class="fas fa-bars"></i>
+         </label>
+         <ul #navList>
+            <li><a routerLink="" routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact:
+            true}">Home</a></li>
+            <li><a routerLink="" routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact:
+            true}">Professional life</a></li>
+            <li><a routerLink="" routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact:
+            true}">Projects/Certificates</a></li>
+            <li><a routerLink="contactme" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:
+            true}">Contact me!</a></li>
+         </ul>
+      </nav>
+      <div class="fake-navbar"></div>
+      
