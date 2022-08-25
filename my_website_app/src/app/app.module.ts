@@ -7,9 +7,14 @@ import { ContactmeComponent } from './contactme/contactme.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router'
 import { FormsModule } from '@angular/forms'
+import { ClipboardModule } from 'ngx-clipboard';
+import { ProfessionalLifeComponent } from './professional-life/professional-life.component';
+import { ProjectsComponent } from './projects/projects.component';
 const appRoutes:Routes=[
   { path:'', component:HomeComponent},
   { path:'contactme', component:ContactmeComponent},
+  { path:'professional', component:ProfessionalLifeComponent},
+  { path:'projects', component:ProjectsComponent},
 ]
 
 @NgModule({
@@ -17,13 +22,16 @@ const appRoutes:Routes=[
     AppComponent,
     HomeComponent,
     ContactmeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProfessionalLifeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
+    ClipboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

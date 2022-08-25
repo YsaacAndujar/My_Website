@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-btn-container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.chat-btn-container a {
+    margin: 0px 10px;
+    display: inline-block;
+    padding:16px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    transition: all 0.3s ease;
+
+}
+.whatsapp{
+    background-color: #21c25c;
+}
+.whatsapp:hover{
+    background-color: #1daa51;
+}
+.telegram{
+    background-color: #0077b3;
+}
+.telegram:hover{
+    background-color:#006394;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-group{
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+}
+.card .icon{
+    font-size: 40px;
+    text-align: center;
+    color: var(--blue);
+    margin: auto 10px;
+    width: 50px;
+}
+.card .text{
+    margin: auto 0px;
+}
+.text h3{
+    color: hsl(255, 8%, 15%);
+}
+.text p{
+    color: hsl(250, 8%, 40%);
+}
+.text a:visited{
+    color: blue;
+}
+
+.card .copy-btn{
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    color: hsl(250, 8%, 40%);
+    transition: all 0.3s ease;
+}
+.card .copy-btn:hover{
+    color: var(--blue);
+}
