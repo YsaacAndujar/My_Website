@@ -24,6 +24,15 @@ footer hr{
     font-size: 30px;
     margin: 0px 25px;
 }
+footer p{
+    color: rgba(117, 117, 117, 0.445);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
 .social-list li a{
     color: rgba(88, 88, 88, 0.938);
     transition: all 0.3s ease;
