@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms'
 import { ClipboardModule } from 'ngx-clipboard';
 import { ProfessionalLifeComponent } from './professional-life/professional-life.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { SafePipe } from './global/safe-pipe';
 const appRoutes:Routes=[
   { path:'', component:HomeComponent},
   { path:'contactme', component:ContactmeComponent},
@@ -24,7 +25,8 @@ const appRoutes:Routes=[
     ContactmeComponent,
     NavbarComponent,
     ProfessionalLifeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

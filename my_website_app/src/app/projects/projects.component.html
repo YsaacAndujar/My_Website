@@ -13,82 +13,9 @@
       <h2>{{project["title"][language]}}</h2>
       <div class="li-content">
         <h4>{{project["second-title"][language]}}</h4>
-        <p>{{project["paragraph"][language]}}</p>
-      </div>
-    </li>
-        <span *ngFor="let experience of translation['work-experience']">
-          <h3>{{experience["title"][language]}}</h3>
-          <h4>{{experience["second-title"][language]}}</h4>
-          <p [innerHTML]="experience['paragraph'][language]"></p>
-          <br>
-        </span>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>Recarga365</h2>
-      
-      <div class="li-content">
-        <h4>Django, Python</h4>
-
-        <p>
-            Este fue un proyecto en el que trabajé para la empresa "Seguridad Residencial y Comercial".
-            <br>
-            <br>
-            Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería.
-            <br>
-            <br>
-            Aquí se puede hacer las siguientes funciones: ver y modificar los clientes registrados, ver las transacciones de los clientes, transferir dinero hacia un cliente, CRUD de loterías, CRUD de sorteos incluyendo sus jugadas habilitadas, plan premio y numeros limitados, conectarse a la api de recargas telefonicas para realizar recargas, obtener balance y compañias telefonicas, Web Scrapping para obtener los numeros ganadores de las loterias, ver tickets, pagar tickets, ver numeros más jugados, CRUD de los paises disponibles, CRUD de las cuentas bancarias de recarga365, CRUD de los centros de recarga, CRUD jugadas habilitadas, entre muchas opciones más. Tambien tuve que realizar la API que mandaría y obtendria toda la informacion necesaria de la aplicacion movil.
-            <br>
-            Para ver un resumen completo, por favor ver el video.
-        </p>
+        <p [innerHTML]="project['paragraph'][language]"></p>
         <br>
-        <iframe width="100%" height="350px" src="https://www.youtube.com/embed/Od5LRsEUXOI" title="Recarga365" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </li>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>Trailers API, BackOffice</h2>
-      <div class="li-content">
-        <h4>Django, Python</h4>
-        <p>
-            Proyecto personal
-            <br>
-            <br>
-            Esta aplicación es un BackOffice para una aplicacinion web para poder ver trailers de peliculas.
-            <br>
-            <br>
-            Debes iniciar sesión con un superusuario y luego podrás crear nuevas categorías y peliculas. Para agregar una pelicula debes ingresar el titulo, dia de estreno, portada, cast, descripción, categoría y trailer de youtube.
-            <br>
-            <br>
-            Esta aplicacion web tambíen tiene varias API hechas con Django Rest Framework. Estas periment obtener los datos de la base de datos para poder visualizarlas en la aplicacion final que tendrá el usuario
-            <br>
-            Para ver un resumen completo, por favor ver el video.
-        </p>
-        <br>
-        <iframe width="100%" height="350px" src="https://www.youtube.com/embed/QSVky1ARCss" title="Recarga365" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </li>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>Super Market Web</h2>
-      <div class="li-content">
-        <h4>Blazor Server, C#</h4>
-        <p>
-            Proyecto para el ITLA
-            <br>
-            <br>
-            La página consta de un sistema de login que divide los usuarios entre compradores y administradores.
-            <br>
-            <br>
-            Los compradores pueden: Elegir productos y agregarlos al carrito de la compra. Pagar con su tarjeta de crédito y para que se le envie el producto. Rastrear sus pedidos.
-            <br>
-            <br>
-            Los administradores pueden: CRUD de productos CRUD categorías Ver todos los pedidos en un mapa y ver los detalles de cada uno. Modicficar el estado de los envios. Modificar el carrousel de la pagina de inicio
-        </p>
-        <br>
-        <iframe width="100%" height="350px" src="https://www.youtube.com/embed/spfMqkFH6-g" title="Recarga365" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="350px" [src]="project['video'][language] | safe" title="Recarga365" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </li>
   </ul>
