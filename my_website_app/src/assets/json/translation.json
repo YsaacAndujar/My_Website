@@ -1,4 +1,18 @@
 {
+    "navbar":{
+        "home":{
+            "es":"Home"
+        },
+        "professionalLife":{
+            "es":"Vida profesional"
+        },
+        "projects":{
+            "es":"Proyectos"
+        },
+        "contactme":{
+            "es":"Contáctame!"
+        }
+    },
     "home":{
         "title":{
             "es":"Hola, soy Ysaac Andujar"

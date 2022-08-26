@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Input  } from '@angular/core';
+import{ GlobalVariables } from '../global/variables';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +7,8 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  @Input() language:string;
+  translation = GlobalVariables.translation["navbar"];
   @ViewChild("navList") list: ElementRef;
   @ViewChild("navCheckbox") checkbox: ElementRef;
   isChecked = false;

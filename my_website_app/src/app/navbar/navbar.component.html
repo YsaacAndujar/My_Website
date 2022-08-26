@@ -12,16 +12,16 @@
          <ul #navList>
             <li><a routerLink="" routerLinkActive="active" 
             [routerLinkActiveOptions]="{exact:
-            true}">Home</a></li>
+            true}">{{translation['home'][language]}}</a></li>
             <li><a routerLink="professional" routerLinkActive="active" 
             [routerLinkActiveOptions]="{exact:
-            true}">Professional life</a></li>
+            true}">{{translation['professionalLife'][language]}}</a></li>
             <li><a routerLink="projects" routerLinkActive="active" 
             [routerLinkActiveOptions]="{exact:
-            true}">Projects</a></li>
+            true}">{{translation['projects'][language]}}</a></li>
             <li><a routerLink="contactme" routerLinkActive="active"
             [routerLinkActiveOptions]="{exact:
-            true}">Contact me!</a></li>
+            true}">{{translation['contactme'][language]}}</a></li>
          </ul>
       </nav>
       <div class="fake-navbar"></div>
