@@ -11,6 +11,7 @@ import { ClipboardModule } from 'ngx-clipboard';
 import { ProfessionalLifeComponent } from './professional-life/professional-life.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SafePipe } from './global/safe-pipe';
+import { FooterComponent } from './footer/footer.component';
 const appRoutes:Routes=[
   { path:'', component:HomeComponent},
   { path:'contactme', component:ContactmeComponent},
@@ -26,7 +27,8 @@ const appRoutes:Routes=[
     NavbarComponent,
     ProfessionalLifeComponent,
     ProjectsComponent,
-    SafePipe
+    SafePipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

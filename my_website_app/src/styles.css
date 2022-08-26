@@ -35,6 +35,9 @@
 }
 body {
   background: rgb(245, 245, 245);
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
 }
 .title-container h1{
   font-size: 38px;

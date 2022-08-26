@@ -15,7 +15,7 @@
   #faq ul {
     text-align: left;
   }
-  .transition, p, ul li i:before, ul li i:after {
+  .transition, p, .drop-ul li i:before, .drop-ul li i:after {
     transition: all 0.3s;
   }
   
@@ -107,7 +107,7 @@
     margin-top: 28px;
     right: 15px;
   }
-  #faq ul li i:before, ul li i:after {
+  #faq ul li i:before, .drop-ul li i:after {
     content: "";
     position: absolute;
     background-color: var(--blue);
