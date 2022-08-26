@@ -7,7 +7,7 @@ import{ GlobalVariables } from './global/variables';
 })
 export class AppComponent implements OnInit{
   title = 'my_website_app';
-  language:string;
+  language="en"
   ngOnInit(): void {
     try {
       var l = navigator.language.substring(0,2);

@@ -1,151 +1,192 @@
 {
     "navbar":{
         "home":{
-            "es":"Home"
+            "es":"Home",
+            "en": "Home"
         },
         "professionalLife":{
-            "es":"Vida profesional"
+            "es":"Vida profesional",
+            "en": "Professional life"
         },
         "projects":{
-            "es":"Proyectos"
+            "es":"Proyectos",
+            "en": "Projects"
         },
         "contactme":{
-            "es":"Contáctame!"
+            "es":"Contáctame!",
+            "en": "Contact me!"
         }
     },
     "home":{
         "title":{
-            "es":"Hola, soy Ysaac Andujar"
+            "es":"Hola, soy Ysaac Andujar",
+            "en": "Hi, i'm Ysaac Andujar"
         },
         "second-title":{
-            "es":"Desarrollador de Software"
+            "es":"Desarrollador de Software",
+            "en": "Software Developer"
         },
         "paragraph":{
-            "es":"Soy un programador y desarrollador destacado en el área de BackEnd, no obstante puedo trabajar como desarrollador Full Stack sin problemas.  Mis lenguajes preferidos son Python, JavaScript y C#, pero siempre estoy dispuesto a aprender nuevos lenguajes y tecnologías. Trabajo con responsabilidad, creatividad, y dedicación."
+            "es":"Soy un programador y desarrollador destacado en el área de BackEnd, no obstante puedo trabajar como desarrollador Full Stack sin problemas.  Mis lenguajes preferidos son Python, JavaScript y C#, pero siempre estoy dispuesto a aprender nuevos lenguajes y tecnologías. Trabajo con responsabilidad, creatividad, y dedicación.",
+            "en":"I am a prominent programmer and developer in the BackEnd area, however I can work as a Full Stack developer without any problems. My preferred languages ​​are Python, JavaScript, and C#, but I'm always willing to learn new languages ​​and technologies. I work with responsibility, creativity, and dedication."
         },
         "contactme":{
-            "es":"Contáctame!"
+            "es":"Contáctame!",
+            "en":"Contact me!"
         }
     },
     "contactme":{
         "title":{
-            "es":"Contáctame ahora mismo!"
+            "es":"Contáctame ahora mismo!",
+            "en":"Contact me now!"
         },
         "whatsapp":{
-            "es":"Contáctame en WhatsApp"
+            "es":"Contáctame en WhatsApp",
+            "en":"Text me on WhatsApp"
         },
         "telegram":{
-            "es":"Contáctame en Telegram"
+            "es":"Contáctame en Telegram",
+            "en":"Text me on Telegram"
         },
         "cellphone":{
-            "es":"Celular"
+            "es":"Celular",
+            "en":"Cellphone"
         },
         "telephone":{
-            "es":"Teléfono"
+            "es":"Teléfono",
+            "en":"Telephone"
         },
         "email":{
-            "es":"Correo"
+            "es":"Correo",
+            "en":"Email"
         },
         "linkedin":{
-            "es":"Linkedin"
+            "es":"Linkedin",
+            "en":"Linkedin"
         }
     },
     "professionalLife":{
         "title":{
-            "es":"Mi vida profesional"
+            "es":"Mi vida profesional",
+            "en":"Mi professional life"
         },
         "title-educations":{
-            "es":"Estudios"
+            "es":"Estudios",
+            "en":"Education"
         },
         "educations":[
             {
                 "title":{
-                    "es":"Instituto Tecnológico de Las Américas (ITLA)"
+                    "es":"Instituto Tecnológico de Las Américas (ITLA)",
+                    "en":"Instituto Tecnológico de Las Américas (ITLA)"
                 },
                 "second-title":{
-                    "es":"2020-2022"
+                    "es":"2020-2022",
+                    "en":"2020-2022"
                 },
                 "paragraph":{
-                    "es":"El Instituto Tecnológico de las Américas (ITLA) es una institución especializada en carreras técnicas-superiores de una duración de 2 años.<br>En esta institución me gradué con <b>Honores</b> en el área de <b>Desarrollo de Software</b>"
+                    "es":"El ITLA es una institución especializada en carreras técnicas-superiores de una duración de 2 años.<br>En esta institución me gradué con <b>Honores</b> en el área de <b>Desarrollo de Software</b>",
+                    "en":"ITLA is an institution specialized in technical-superior careers lasting 2 years.<br>In this institution I graduated with <b>Honors</b> in the area of ​​<b>Software Development</b>"
                 }
             },
             {
                 "title":{
-                    "es":"Instituto Politécnico Pilar Constanzo (IPPC)"
+                    "es":"Instituto Politécnico Pilar Constanzo (IPPC)",
+                    "en":"Instituto Politécnico Pilar Constanzo (IPPC)"
                 },
                 "second-title":{
-                    "es":"2015-2019"
+                    "es":"2015-2019",
+                    "en":"2015-2019"
                 },
                 "paragraph":{
-                    "es":"El IPPC es una institución educativa de secundaria especializada en la enseñanza general de las tecnologías.<br>En esta institución me gradué en el área de <b>Electrónica y telecomunicaciones</b>"
+                    "es":"El IPPC es una institución educativa de secundaria especializada en la enseñanza general de las tecnologías.<br>En esta institución me gradué en el área de <b>Electrónica y telecomunicaciones</b>",
+                    "en":"IPPC is a highschool institution specialized in the general teaching of technologies.<br>In this institution I graduated in the area of ​​<b>Electronics and Telecommunications</b>"
                 }
             }
         ],
         "title-experience":{
-            "es":"Experiencia laboral"
+            "es":"Experiencia laboral",
+            "en": "Work experience"
         },
         "work-experience":[
             {
                 "title":{
-                    "es":"Seguridad Residencial y Comercial (SRC)"
+                    "es":"Seguridad Residencial y Comercial (SRC)",
+                    "en":"Seguridad Residencial y Comercial (SRC)"
                 },
                 "second-title":{
-                    "es":"2022"
+                    "es":"2022",
+                    "en":"2022"
                 },
                 "paragraph":{
-                    "es":"Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería. Fue realizada con <b>Django, Python</b><br>Para más información haga <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click aquí</a>"
+                    "es":"Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería. Fue realizada con <b>Django, Python</b><br>Para más información haga <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click aquí</a>",
+                    "en":"Here I made a BackOffice and API's for a mobile application for phone top-ups, money transfers and buying and selling lottery tickets. It was developed using <b>Django, Python</b><br>For more information <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click here</a>"
                 }
             }
         ]
     },
     "projects":{
         "title":{
-            "es":"Mis proyectos"
+            "es":"Mis proyectos",
+            "en":"My projects"
         },
         "github":{
-            "es":"Visita mi GitHub"
+            "es":"Visita mi GitHub",
+            "en":"Visit my GitHub"
         },
         "projects":[
             {
                 "title":{
-                    "es":"Recarga365"
+                    "es":"Recarga365",
+                    "en":"Recarga365"
                 },
                 "second-title":{
-                    "es":"Django, Python"
+                    "es":"Django, Python",
+                    "en":"Django, Python"
                 },
                 "paragraph":{
-                    "es":"Este fue un proyecto en el que trabajé para la empresa \"Seguridad Residencial y Comercial\".<br><br>Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería.<br><br>Aquí se puede hacer las siguientes funciones: ver y modificar los clientes registrados, ver las transacciones de los clientes, transferir dinero hacia un cliente, CRUD de loterías, CRUD de sorteos incluyendo sus jugadas habilitadas, plan premio y numeros limitados, conectarse a la api de recargas telefonicas para realizar recargas, obtener balance y compañias telefonicas, Web Scrapping para obtener los numeros ganadores de las loterias, ver tickets, pagar tickets, ver numeros más jugados, CRUD de los paises disponibles, CRUD de las cuentas bancarias de recarga365, CRUD de los centros de recarga, CRUD jugadas habilitadas, entre muchas opciones más. Tambien tuve que realizar la API que mandaría y obtendria toda la informacion necesaria de la aplicacion movil.<br><br>Para ver un resumen completo, por favor ver el video."
+                    "es":"Este fue un proyecto en el que trabajé para la empresa \"Seguridad Residencial y Comercial\".<br><br>Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería.<br><br>Aquí se puede hacer las siguientes funciones: ver y modificar los clientes registrados, ver las transacciones de los clientes, transferir dinero hacia un cliente, CRUD de loterías, CRUD de sorteos incluyendo sus jugadas habilitadas, plan premio y numeros limitados, conectarse a la api de recargas telefonicas para realizar recargas, obtener balance y compañias telefonicas, Web Scrapping para obtener los numeros ganadores de las loterias, ver tickets, pagar tickets, ver numeros más jugados, CRUD de los paises disponibles, CRUD de las cuentas bancarias de recarga365, CRUD de los centros de recarga, CRUD jugadas habilitadas, entre muchas opciones más.<br><br>Tambien tuve que realizar la API que mandaría y obtendria toda la informacion necesaria de la aplicacion movil.<br><br>Para ver un resumen completo, por favor ver el video.",
+                    "en":"This was a project I worked on for the company \"Seguridad Residencial y Comercial\".<br><br>Here I made a BackOffice and API's for a mobile application on telephone top-ups, money transfer and purchase and sale of lottery tickets.<br><br>Here you can do the following functions: view and modify registered customers, view transactions of clients, transfer money to a client, CRUD of lotteries, CRUD of raffles including their enabled plays, prize plan and limited numbers, connect to the telephone recharge api to recharge, obtain balance and telephone companies, Web Scrapping to obtain the winning lottery numbers, view tickets, pay tickets, view most played numbers, CRUD of available countries, CRUD of recharge365 bank accounts, CRUD of recharge centers, CRUD enabled plays, among many more options.<br><br>I also had to make the API that would send and obtain all the necessary information from the mobile application.<br><br>To see a review, please watch the video."
                 },
                 "video":{
-                    "es":"https://www.youtube.com/embed/Od5LRsEUXOI"
+                    "es":"https://www.youtube.com/embed/Od5LRsEUXOI",
+                    "en":"https://www.youtube.com/embed/Od5LRsEUXOI"
                 }
             },
             {
                 "title":{
-                    "es":"Trailers API, BackOffice"
+                    "es":"Trailers API, BackOffice",
+                    "en":"Trailers API, BackOffice"
                 },
                 "second-title":{
-                    "es":"Django, Python"
+                    "es":"Django, Python",
+                    "en":"Django, Python"
                 },
                 "paragraph":{
-                    "es":"Proyecto personal.<br><br>Esta aplicación es un BackOffice para una aplicacinion web para poder ver trailers de peliculas.<br><br>Debes iniciar sesión con un superusuario y luego podrás crear nuevas categorías y peliculas. Para agregar una pelicula debes ingresar el titulo, dia de estreno, portada, cast, descripción, categoría y trailer de youtube.<br><br>Esta aplicacion web tambíen tiene varias API hechas con Django Rest Framework. Estas periment obtener los datos de la base de datos para poder visualizarlas en la aplicacion final que tendrá el usuario.<br><br>Para ver un resumen completo, por favor ver el video."
+                    "es":"Personal project.<br><br>Esta aplicación es un BackOffice para una aplicacinion web para poder ver trailers de peliculas.<br><br>Debes iniciar sesión con un superusuario y luego podrás crear nuevas categorías y peliculas. Para agregar una pelicula debes ingresar el titulo, dia de estreno, portada, cast, descripción, categoría y trailer de youtube.<br><br>Esta aplicacion web tambíen tiene varias API hechas con Django Rest Framework. Estas periment obtener los datos de la base de datos para poder visualizarlas en la aplicacion final que tendrá el usuario.<br><br>Para ver un resumen completo, por favor ver el video.",
+                    "en":"This application is a BackOffice for a web application to watch movie trailers.<br><br>You must log in with a super user and then you can create new categories and movies. To add a movie you must enter the title, release date, cover, cast, description, category and youtube trailer.<br><br>This web application also has several APIs made with Django Rest Framework. These periment obtain the data from the database to be able to visualize them in the final application that the user will have.<br><br>To see a review, please watch the video."
                 },
                 "video":{
-                    "es":"https://www.youtube.com/embed/QSVky1ARCss"
+                    "es":"https://www.youtube.com/embed/QSVky1ARCss",
+                    "en":"https://www.youtube.com/embed/QSVky1ARCss"
                 }
             },
             {
                 "title":{
-                    "es":"Super Market Web"
+                    "es":"Super Market Web",
+                    "en":"Super Market Web"
                 },
                 "second-title":{
-                    "es":"Blazor Server, C#"
+                    "es":"Blazor Server, C#",
+                    "en":"Blazor Server, C#"
                 },
                 "paragraph":{
-                    "es":"Proyecto para el ITLA<br><br>La página consta de un sistema de login que divide los usuarios entre compradores y administradores.<br><br>Los compradores pueden: Elegir productos y agregarlos al carrito de la compra. Pagar con su tarjeta de crédito y para que se le envie el producto. Rastrear sus pedidos.<br><br>Los administradores pueden: CRUD de productos CRUD categorías Ver todos los pedidos en un mapa y ver los detalles de cada uno. Modicficar el estado de los envios. Modificar el carrousel de la pagina de inicio.<br><br>"
+                    "es":"Proyecto para el ITLA<br><br>La página consta de un sistema de login que divide los usuarios entre compradores y administradores.<br><br>Los compradores pueden: Elegir productos y agregarlos al carrito de la compra. Pagar con su tarjeta de crédito y para que se le envie el producto. Rastrear sus pedidos.<br><br>Los administradores pueden: CRUD de productos CRUD categorías Ver todos los pedidos en un mapa y ver los detalles de cada uno. Modicficar el estado de los envios. Modificar el carrousel de la pagina de inicio.<br><br>Para ver un resumen completo, por favor ver el video.",
+                    "en":"Project for the ITLA<br><br>The page consists of a login system that divides users between buyers and administrators.<br><br>Buyers can: Choose products and add them to the shopping cart. Pay with your credit card and have the product shipped to you. Track your orders.<br><br>Admins can: Product CRUD Category CRUD View all orders on a map and view details for each one. Modify the status of shipments. Modify the carousel of the home page.<br><br>To see a review, please watch the video."
                 },
                 "video":{
-                    "es":"https://www.youtube.com/embed/spfMqkFH6-g"
+                    "es":"https://www.youtube.com/embed/spfMqkFH6-g",
+                    "en":"https://www.youtube.com/embed/spfMqkFH6-g"
                 }
             }
         ]
