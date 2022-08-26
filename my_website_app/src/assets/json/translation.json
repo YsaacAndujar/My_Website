@@ -1,0 +1,109 @@
+{
+    "home":{
+        "title":{
+            "es":"Hola, soy Ysaac Andujar"
+        },
+        "second-title":{
+            "es":"Desarrollador de Software"
+        },
+        "paragraph":{
+            "es":"Soy un programador y desarrollador destacado en el área de BackEnd, no obstante puedo trabajar como desarrollador Full Stack sin problemas.  Mis lenguajes preferidos son Python, JavaScript y C#, pero siempre estoy dispuesto a aprender nuevos lenguajes y tecnologías. Trabajo con responsabilidad, creatividad, y dedicación."
+        },
+        "contactme":{
+            "es":"Contáctame!"
+        }
+    },
+    "contactme":{
+        "title":{
+            "es":"Contáctame ahora mismo!"
+        },
+        "whatsapp":{
+            "es":"Contáctame en WhatsApp"
+        },
+        "telegram":{
+            "es":"Contáctame en Telegram"
+        },
+        "cellphone":{
+            "es":"Celular"
+        },
+        "telephone":{
+            "es":"Teléfono"
+        },
+        "email":{
+            "es":"Correo"
+        },
+        "linkedin":{
+            "es":"Linkedin"
+        }
+    },
+    "professionalLife":{
+        "title":{
+            "es":"Mi vida profesional"
+        },
+        "title-educations":{
+            "es":"Estudios"
+        },
+        "educations":[
+            {
+                "title":{
+                    "es":"Instituto Tecnológico de Las Américas (ITLA)"
+                },
+                "second-title":{
+                    "es":"2020-2022"
+                },
+                "paragraph":{
+                    "es":"El Instituto Tecnológico de las Américas (ITLA) es una institución especializada en carreras técnicas-superiores de una duración de 2 años.<br>En esta institución me gradué con <b>Honores</b> en el área de <b>Desarrollo de Software</b>"
+                }
+            },
+            {
+                "title":{
+                    "es":"Instituto Politécnico Pilar Constanzo (IPPC)"
+                },
+                "second-title":{
+                    "es":"2015-2019"
+                },
+                "paragraph":{
+                    "es":"El IPPC es una institución educativa de secundaria especializada en la enseñanza general de las tecnologías.<br>En esta institución me gradué en el área de <b>Electrónica y telecomunicaciones</b>"
+                }
+            }
+        ],
+        "title-experience":{
+            "es":"Experiencia laboral"
+        },
+        "work-experience":[
+            {
+                "title":{
+                    "es":"Seguridad Residencial y Comercial (SRC)"
+                },
+                "second-title":{
+                    "es":"2022"
+                },
+                "paragraph":{
+                    "es":"Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería. Fue realizada con <b>Django, Python</b><br>Para más información haga <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click aquí</a>"
+                }
+            }
+        ]
+    },
+    "projects":{
+        "title":{
+            "es":"Mis proyectos"
+        },
+        "github":{
+            "es":"Visita mi GitHub"
+        },
+        "projects":[
+            {
+                "title":{
+                    "es":"Recarga365"
+                },
+                "second-title":{
+                    "es":"Django, Python"
+                },
+                "paragraph":{
+                    "es":"Este fue un proyecto en el que trabajé para la empresa \"Seguridad Residencial y Comercial\".<br><br>Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería.<br><br>Aquí se puede hacer las siguientes funciones: ver y modificar los clientes registrados, ver las transacciones de los clientes, transferir dinero hacia un cliente, CRUD de loterías, CRUD de sorteos incluyendo sus jugadas habilitadas, plan premio y numeros limitados, conectarse a la api de recargas telefonicas para realizar recargas, obtener balance y compañias telefonicas, Web Scrapping para obtener los numeros ganadores de las loterias, ver tickets, pagar tickets, ver numeros más jugados, CRUD de los paises disponibles, CRUD de las cuentas bancarias de recarga365, CRUD de los centros de recarga, CRUD jugadas habilitadas, entre muchas opciones más. Tambien tuve que realizar la API que mandaría y obtendria toda la informacion necesaria de la aplicacion movil.<br>Para ver un resumen completo, por favor ver el video."
+                }
+
+            }
+        ]
+    }
+}

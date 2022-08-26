@@ -1,40 +1,35 @@
 <div class="container">
 <div class="title-container">
-        <h1>Mi vida profesional</h1>
+        <h1>{{translation['title'][language]}}</h1>
     </div>
 <div id="faq">
   <ul>
     <li>
       <input type="checkbox" checked>
       <i></i>
-      <h2>Estudios</h2>
+      <h2>{{translation['title-educations'][language]}}</h2>
       <div class="li-content">
-        <h3>Instituto Tecnológico de Las Américas (ITLA)</h3>
-        <h4>2020-2022</h4>
-        <p>El Instituto Tecnológico de las Américas (ITLA) es una institución especializada en carreras técnicas-superiores de una duración de 2 años.
-        <br>
-        En esta institución me gradué con <b>Honores</b> en el área de <b>Desarrollo de Software</b></p>
-        <br>
-        <h3>Instituto Politécnico Pilar Constanzo (IPPC)</h3>
-        <h4>2015-2019</h4>
-        <p>El IPPC es una institución educativa de secundaria especializada en la enseñanza general de las tecnologías.
-        <br>
-        En esta institución me gradué en el área de <b>Electrónica y telecomunicaciones</b></p>
+        <span *ngFor="let education of translation['educations']">
+          <h3>{{education["title"][language]}}</h3>
+          <h4>{{education["second-title"][language]}}</h4>
+          <p [innerHTML]="education['paragraph'][language]"></p>
+          <br>
+        </span>
       </div>
     </li>
     <li>
       <input type="checkbox" checked>
       <i></i>
-      <h2>Experiencia laboral</h2>
+      <h2>{{translation['title-experience'][language]}}</h2>
       <div class="li-content">
-        <h3>Seguridad Residencial y Comercial (SRC)</h3>
-        <h4>2022</h4>
-        <p>Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería. Fue realizada con <b>Django, Python</b>
-        <br>Para más información haga <a href="https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar" target="_blank">click aquí</a>
-        </p>
+        <span *ngFor="let experience of translation['work-experience']">
+          <h3>{{experience["title"][language]}}</h3>
+          <h4>{{experience["second-title"][language]}}</h4>
+          <p [innerHTML]="experience['paragraph'][language]"></p>
+          <br>
+        </span>
       </div>
     </li>
-    
   </ul>
 </div>
 </div>

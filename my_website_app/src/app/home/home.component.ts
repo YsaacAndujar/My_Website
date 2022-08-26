@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import{ GlobalVariables } from '../global/variables';
 
 @Component({
   selector: 'app-home',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  language = GlobalVariables.language;
+  translation = GlobalVariables.translation["home"]
+constructor() { }
 
   ngOnInit(): void {
   }

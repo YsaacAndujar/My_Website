@@ -1,11 +1,14 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { ClipboardService } from 'ngx-clipboard';
+import{ GlobalVariables } from '../global/variables';
 @Component({
   selector: 'app-contactme',
   templateUrl: './contactme.component.html',
   styleUrls: ['./contactme.component.css']
 })
 export class ContactmeComponent implements OnInit {
+  language = GlobalVariables.language;
+  translation = GlobalVariables.translation["contactme"];
   linkedin = "ysaac-andujar-binet-982517232";
   mobile = "+1-(849)-281-8385";
   phone = "+1-(809)-593-3180";

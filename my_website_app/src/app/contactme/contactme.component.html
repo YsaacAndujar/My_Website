@@ -1,11 +1,11 @@
 
 <div class="container">
     <div class="title-container">
-        <h1>Contáctame ahora mismo!</h1>
+        <h1>{{translation["title"][language]}}</h1>
     </div>
     <div class="chat-btn-container">
-        <a href="https://wa.me/18492818385" class="whatsapp" target="_blank">Contáctame en WhatsApp</a>
-        <a href="https://t.me/Tyrone09876543" class="telegram" target="_blank">Contáctame en Telegram</a>
+        <a href="https://wa.me/18492818385" class="whatsapp" target="_blank">{{translation["whatsapp"][language]}}</a>
+        <a href="https://t.me/Tyrone09876543" class="telegram" target="_blank">{{translation["telegram"][language]}}</a>
     </div>
     <div class="card-container">
         <div class="card-group">
@@ -14,7 +14,7 @@
                     <i class="fa-solid fa-mobile-button"></i>
                 </div>
                 <div class="text">
-                    <h3>Celular</h3>
+                    <h3>{{translation["cellphone"][language]}}</h3>
                     <p>{{mobile}}</p>
                 </div>
                 <i class="fa-solid fa-copy copy-btn" #mobileBtn (click)="copyMobile()"></i>
@@ -24,7 +24,7 @@
                     <i class="fa-solid fa-phone"></i>
                 </div>
                 <div class="text">
-                    <h3>Teléfono</h3>
+                    <h3>{{translation["telephone"][language]}}</h3>
                     <p>{{phone}}</p>
                 </div>
                 <i class="fa-solid fa-copy copy-btn" #phoneBtn (click)="copyPhone()"></i>
@@ -38,7 +38,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
                 <div class="text">
-                    <h3>Correo</h3>
+                    <h3>{{translation["email"][language]}}</h3>
                     <p>{{email}}</p>
                 </div>
                 <i class="fa-solid fa-copy copy-btn" #emailBtn (click)="copyEmail()"></i>
@@ -49,7 +49,7 @@
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
                 <div class="text">
-                    <h3>Linkedin</h3>
+                    <h3>{{translation["linkedin"][language]}}</h3>
                     <a href="https://www.linkedin.com/in/ysaac-andujar-binet-982517232/" target="_blank">{{linkedin}}</a>
                 </div>
                 <i class="fa-solid fa-copy copy-btn"#linkedinBtn (click)="copyLinkedin()"></i>
