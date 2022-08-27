@@ -46,3 +46,8 @@ body {
 .title-container{
   text-align: center;
 }
+@media (max-width: 905px) {
+  body{
+    padding-bottom: 155px;
+  }
+}

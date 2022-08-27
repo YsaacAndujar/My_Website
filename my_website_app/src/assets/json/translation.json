@@ -1,4 +1,10 @@
 {
+    "assets":{
+        "cv":{
+            "es":"CV - Desarrollador de Software - Ysaac Andujar.pdf",
+            "en":"CV - Software Developer - Ysaac Andujar.pdf"
+        }
+    },
     "navbar":{
         "home":{
             "es":"Home",

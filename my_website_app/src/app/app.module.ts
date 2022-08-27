@@ -17,6 +17,10 @@ const appRoutes:Routes=[
   { path:'contactme', component:ContactmeComponent},
   { path:'professional', component:ProfessionalLifeComponent},
   { path:'projects', component:ProjectsComponent},
+  {
+    path: '**',
+    redirectTo: ''
+  }
 ]
 
 @NgModule({

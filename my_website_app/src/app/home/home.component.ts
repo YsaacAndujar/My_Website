@@ -8,7 +8,8 @@ import{ GlobalVariables } from '../global/variables';
 })
 export class HomeComponent implements OnInit {
   language = GlobalVariables.language;
-  translation = GlobalVariables.translation["home"]
+  translation = GlobalVariables.translation["home"];
+  pdf = GlobalVariables.translation["assets"]["cv"]
 constructor() { }
 
   ngOnInit(): void {

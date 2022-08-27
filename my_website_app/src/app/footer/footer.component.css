@@ -8,6 +8,8 @@ footer{
     width: 100%;
     flex-direction: column;
     bottom: 0;
+    text-align: center;
+
 }
 footer hr{
     border: none;
@@ -40,4 +42,9 @@ footer p{
 
 .social-list li a:hover{
     color: var(--blue);
+}
+@media (max-width: 905px) {
+    footer p{
+        position: static;
+    }
 }
