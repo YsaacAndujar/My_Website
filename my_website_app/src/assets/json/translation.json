@@ -128,6 +128,20 @@
                     "es":"Aquí realicé un BackOffice y API's para una aplicación móvil sobre recargas telefónicas, transferencia de dinero y compra y venta de tickets de lotería. Fue realizada con <b>Django, Python</b><br>Para más información haga <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click aquí</a>",
                     "en":"Here I made a BackOffice and API's for a mobile application for phone top-ups, money transfers and buying and selling lottery tickets. It was developed using <b>Django, Python</b><br>For more information <a href='https://www.youtube.com/watch?v=Od5LRsEUXOI&ab_channel=YsaacAndujar' target='_blank'>click here</a>"
                 }
+            },
+            {
+                "title":{
+                    "es":"Gadget Gallery",
+                    "en":"Gadget Gallery"
+                },
+                "second-title":{
+                    "es":"2019",
+                    "en":"2019"
+                },
+                "paragraph":{
+                    "es":"Aquí trabajé como técnico computacion e informática dando soporte al cliente, reparando computadoras y vendiendolas.",
+                    "en":"Here I worked as a computer and IT technician giving customer support, repairing computers and selling them."
+                }
             }
         ]
     },
