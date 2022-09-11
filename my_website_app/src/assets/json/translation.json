@@ -183,12 +183,30 @@
                     "en":"Django, Python"
                 },
                 "paragraph":{
-                    "es":"Personal project.<br><br>Esta aplicación es un BackOffice para una aplicacinion web para poder ver trailers de peliculas.<br><br>Debes iniciar sesión con un superusuario y luego podrás crear nuevas categorías y peliculas. Para agregar una pelicula debes ingresar el titulo, dia de estreno, portada, cast, descripción, categoría y trailer de youtube.<br><br>Esta aplicacion web tambíen tiene varias API hechas con Django Rest Framework. Estas periment obtener los datos de la base de datos para poder visualizarlas en la aplicacion final que tendrá el usuario.<br><br>Para ver un resumen completo, por favor ver el video.",
-                    "en":"This application is a BackOffice for a web application to watch movie trailers.<br><br>You must log in with a super user and then you can create new categories and movies. To add a movie you must enter the title, release date, cover, cast, description, category and youtube trailer.<br><br>This web application also has several APIs made with Django Rest Framework. These periment obtain the data from the database to be able to visualize them in the final application that the user will have.<br><br>To see a review, please watch the video."
+                    "es":"Proyecto personal.<br><br>Esta aplicación es un BackOffice para una aplicacinion web para poder ver trailers de peliculas.<br><br>Debes iniciar sesión con un superusuario y luego podrás crear nuevas categorías y peliculas. Para agregar una pelicula debes ingresar el titulo, dia de estreno, portada, cast, descripción, categoría y trailer de youtube.<br><br>Esta aplicacion web tambíen tiene varias API hechas con Django Rest Framework. Estas periment obtener los datos de la base de datos para poder visualizarlas en la aplicacion final que tendrá el usuario.<br><br>Para ver un resumen completo, por favor ver el video.",
+                    "en":"Personal project.<br><br>This application is a BackOffice for a web application to watch movie trailers.<br><br>You must log in with a super user and then you can create new categories and movies. To add a movie you must enter the title, release date, cover, cast, description, category and youtube trailer.<br><br>This web application also has several APIs made with Django Rest Framework. These periment obtain the data from the database to be able to visualize them in the final application that the user will have.<br><br>To see a review, please watch the video."
                 },
                 "video":{
                     "es":"https://www.youtube.com/embed/QSVky1ARCss",
                     "en":"https://www.youtube.com/embed/QSVky1ARCss"
+                }
+            },
+            {
+                "title":{
+                    "es":"Trailers Angular",
+                    "en":"Trailers Angular"
+                },
+                "second-title":{
+                    "es":"Angular, TypeScripts",
+                    "en":"Angular, TypeScripts"
+                },
+                "paragraph":{
+                    "es":"Proyecto personal<br><br>Esta aplicación require una api. Por favor, ver mi proyecto Trailers_API_Django_Rest_Framework.<br><br>Este proyecto consta de un sistema de login de usuarios, una parte para explorar peliculas y home.<br><br>En la parte de explorar pleiculas puedes buscar en la base de datos buscando por titulo, categoria, estreno desde o hasta.<br><br>También puedes ver los detalles de una pelicula y ver su trailer en la misma pagina.",
+                    "en":"Personal project<br><br>This app requires an API. Please see my Trailers_API_Django_Rest_Framework project.<br><br>This project consists of a user login system, a part to explore movies and home.<br><br>In the part of exploring movies you can search the database by title, category, premiere from or to.<br><br>You can also view the details of a movie and watch its trailer on the same page."
+                },
+                "video":{
+                    "es":"https://www.youtube.com/embed/A618vRaX_w4",
+                    "en":"https://www.youtube.com/embed/A618vRaX_w4"
                 }
             },
             {
